@@ -6,7 +6,7 @@ const Country = ({ country, handleTotalVisited }) => {
   const handleVisited = () => {
     const clicked = !visited;
     setVisited(clicked);
-    handleTotalVisited()
+    handleTotalVisited(country)
   };
   
   return (
